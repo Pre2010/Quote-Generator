@@ -20,7 +20,7 @@ body {
   justify-content: center;
 }
 
-.quote-container {
+.quote-container, #error-container {
   width: auto;
   max-width: 900px;
   padding: 20px 30px;
@@ -30,7 +30,7 @@ body {
   box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.4);
 }
 
-.quote-text {
+.quote-text, #error-text, #retry-text {
   font-size: 2.75rem;
 }
 
